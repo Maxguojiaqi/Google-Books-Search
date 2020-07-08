@@ -17,11 +17,6 @@ function Home () {
     message: "Search For A Book To Begin!"
   })
 
-  // state = {
-  //   books: [],
-  //   q: "",
-  //   message: "Search For A Book To Begin!"
-  // };
 
   let handleInputChange = event => {
     const { name, value } = event.target;
